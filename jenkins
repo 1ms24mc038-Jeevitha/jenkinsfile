@@ -4,7 +4,7 @@ pipeline{
     satges {
         stage('Checkout') {
             steps {
-               git branch : 'main', url: 'https://github.com/1ms24mc038-Jeevitha/jenkinsfile/new/main'
+               git branch : 'main', url: 'https://github.com/1ms24mc038-Jeevitha/jenkinsfile'
             }
         }
 
