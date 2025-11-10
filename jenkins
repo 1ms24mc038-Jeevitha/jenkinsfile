@@ -1,14 +1,14 @@
 pipeline{
     agent any
 
-    satges {
+    stages {
         stage('Checkout') {
             steps {
                git branch : 'main', url: 'https://github.com/1ms24mc038-Jeevitha/jenkinsfile'
             }
         }
 
-        stage('Build'){
+        stage('Builds'){
             steps {
                  echo "Building.."
             }
